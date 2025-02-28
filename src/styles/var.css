@@ -1,0 +1,13 @@
+:root {
+    --font-montserrat: "Montserrat";
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    --bg-main: #0c090f;
+    --bg-nav: #1c1a22;
+    --bg-button: #2c2c2e;
+    --bg-button-hover: #3a3a3c;
+    --bg-white: #ffffff;
+
+    --text-white: #ffffff;
+    --text-gray: #b1b1b1;
+}

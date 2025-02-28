@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beatify Music</title>
+    <link rel="icon" type="image/png" href="./src/assets/icons/favicon_v2.png">
+
+    <link rel="stylesheet" href="./src/styles/reset-style.css">
+    <link rel="stylesheet" href="./src/styles/var.css">
+    <link rel="stylesheet" href="./src/styles/main-sidebar.css">
+    <link rel="stylesheet" href="./src/styles/main-header.css">
+    <link rel="stylesheet" href="./src/styles/main-content.css">
+    <link rel="stylesheet" href="./src/styles/media-queries.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
+</head>
+<body>
+    <div id="logotype">
+        <a href="">
+            <img class="logo" src="./src/assets/icons/logo.png" alt="logo">
+        </a>
+    </div>
+    <div id="sidebar">
+        <nav class="sidebar_nav">
+            <ul>
+                <li><button id="home"><img src="./src/assets/icons/house-solid.svg">Início</button></li>
+                <li><button id="expl"><img src="./src/assets/icons/compass-regular.svg">Explorar</button></li>
+                <li><button id="fav"><img src="./src/assets/icons/heart-regular.svg">Favoritos</button></li>
+            </ul>
+        </nav>
+        <div id="libr">
+            <div class="libr_cont">
+                <button class="libr__button">
+                    <img id="book" src="./src/assets/icons/book-solid.svg" 
+                        alt="library"><span>Minha Biblioteca</span></button>
+                <button class="libr__plus">
+                    <img id="plus" src="./src/assets/icons/plus-solid.svg" 
+                        alt="criar playlist"></button>
+                <button class="libr__arrow">
+                    <img id="arrow" src="./src/assets/icons/arrow-right-solid.svg" 
+                        alt="seta direita"></button>
+            </div>
+
+            <div id="playlist">
+                <div class="playlist_cont">
+                    <button class="playlist_button">Playlists</button>
+                    <button class="artits_button">Artistas</button>
+                    <button class="albums_button">Álbuns</button>
+                </div>
+            </div>
+            <section class="section-playlist">
+                <div class="section-playlist__cont">
+                    <span class="title">Crie a sua primeira playlist</span>
+                    <span class="subtitle">É fácil, vamos te ajudar.</span>
+                    <button class="section-playlist__button">Criar playlist</button>
+                </div>
+            </section>
+            <div id="info">
+                <a href="">Legal</a>
+                <a href="">Segurança</a>
+                <a href="">Política de privacidade</a>
+                <a href="">Cookie</a>
+                <a href="">Sobre anúncios</a>
+                <a href="">Acessibilidade</a>
+                <a href="" class="cookies">Cookies</a>
+            </div>
+            <div id="lang">
+                <button class="lang-setting"><img src="./src/assets/icons/globe-solid.svg" alt="">Português do Brasil</button>
+            </div>
+        </div>
+    </div>
+
+    <main>
+    <div id="main-header">
+        <nav class="header_nav">
+            <div class="search"><img src="./src/assets/icons/search.png" alt="ícone de busca">
+            <input type="text" placeholder="O que você quer ouvir agora?"/></div>
+
+        <div class="header_login">
+            <div class="premium">
+            <a href="" class="pre">Premium</a>
+            <a href="" class="sup">Suporte</a>
+        </div>
+
+            <span class="line">|</span>
+            <a href="" class="app_install"><img src="./src/assets/icons/circle-down-regular.svg">Instalar Aplicativo</a>
+            <a href="" class="subscribe">Inscrever-se</a>
+            <button class="login"><a href="">Entrar</a></button>
+        </div>
+        </nav>
+    </div>
+
+    <div id="main-cont">
+        <div class="main-page"> 
+            <h2>Artistas populares</h2>
+            <div class="cards-top">
+                
+            <a href="" class="artist"><img src=".\src\assets\playlist\1.jpg">
+                <span>Jorge & Mateus</span><p>Artista</p></a>
+
+            <a href="" class="artist"><img src=".\src\assets\playlist\2.jpg">
+                <span>Péricles</span><p>Artista</p></a>
+
+            <a href="" class="artist"><img src=".\src\assets\playlist\3.jpg">
+                <span>Skank</span><p>Artista</p></a>
+
+            <a href="" class="artist"><img src=".\src\assets\playlist\4.jpg">
+                <span>Engenheiros do Hawaii</span><p>Artista</p></a>
+
+            <a href="" class="artist"><img src=".\src\assets\playlist\5.jpg">
+                <span>Pitty</span><p>Artista</p></a>
+
+            <a href="" class="artist"><img src=".\src\assets\playlist\6.jpg">
+                <span>Henrique & Juliano</span><p>Artista</p></a>
+            </div>
+        </div>
+    </div>
+
+    </main>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

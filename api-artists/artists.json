@@ -1,0 +1,10 @@
+{
+    "artists": [
+      { "id": 1, "name": "Skank", "genre": "Rock", "urlImg": "./src/assets/playlist/3.jpg" },
+      { "id": 2, "name": "Jorge e Mateus", "genre": "Sertanejo", "urlImg": "./src/assets/playlist/1.jpg" },
+      { "id": 3, "name": "Pitty", "genre": "Rock", "urlImg": "./src/assets/playlist/5.jpg" },
+      { "id": 4, "name": "Engenheiros do Hawaii", "genre": "Rock", "urlImg": "./src/assets/playlist/4.jpg" },
+      { "id": 5, "name": "Henrique e Juliano", "genre": "Sertanejo", "urlImg": "./src/assets/playlist/6.jpg" },
+      { "id": 6, "name": "P�ricles", "genre": "Pagode", "urlImg": "./src/assets/playlist/2.jpg" }
+    ]
+  }

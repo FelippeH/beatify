@@ -1,0 +1,66 @@
+#main-cont {
+    background: linear-gradient(to top, #1c1a22, #26242b);
+    margin: 13px 412px;
+    width: 1492px;
+    height: 871px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+#main-cont .cards-top {
+    display: flex;
+    transition: background 0.2s ease, transform 0.1s ease;
+    gap: 0;
+    margin: -14px 20px;
+    cursor: pointer;
+}
+
+#main-cont .cards-top span {
+    font-weight: 400;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    margin-left: 14px;
+}
+
+#main-cont .cards-top span:hover {
+    text-decoration: underline;
+}
+
+#main-cont .cards-top p {
+    color: var(--text-gray);
+    white-space: nowrap;
+    font-size: 0.75rem;
+    margin-bottom: 14px;
+    margin-left: 14px;
+}
+
+#main-cont .cards-top img {
+    aspect-ratio: 1/1;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+    box-shadow: 0 0 22px rgb(0, 0, 0, 0.66);
+    margin-bottom: 2px;
+}
+
+#main-cont .cards-top .artist {
+    color: var(--text-white);
+    max-width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+}
+
+#main-cont .cards-top .artist:hover {
+    background: linear-gradient(to bottom, #3a3a3c00, #3a3a3c56);
+    border-radius: 6px;
+}
+
+#main-cont h2 {
+    color: var(--text-white);
+    padding: 16px 0 0 36px;
+}
+
+.hidden {
+    display: none;
+}
